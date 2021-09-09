@@ -135,12 +135,12 @@ def nuker():
 	         print("updating is starting  ")
 	         os.system("git clone https://github.com/KlumzyBish/Nuker")
 	         os.system("cd Nuker && bash update.sh")
-            except Exception:
-                pass
-	elif choice == ("5"):
-                 os.system("clear")
-                 os.system("git clone https://github.com/HACK3RY2J/Anon-SMS")
-                
+
+        elif choice == ("5"):
+	         os.system("clear")
+	         print("updating is starting  ")
+	         os.system("git clone https://github.com/HACK3RY2J/Anon-SMS")
+	         os.system("cd Nuker && ls")
 			
         elif choice == ("6"):
             time.sleep(1)
