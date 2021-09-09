@@ -49,7 +49,8 @@ def menu():
     print("2.   ip tracker")
     print("3.   dns lookup")
     print("4.   Update")
-    print("5.   Exit")
+    print("5.   ANON-SMS")
+    print("6.   Exit")
     print("--------------------")
 
 def nuker():
@@ -140,7 +141,7 @@ def nuker():
                  os.system("git clone https://github.com/HACK3RY2J/Anon-SMS")
                 
 			
-        elif choice == ("5"):
+        elif choice == ("6"):
             time.sleep(1)
             print("\n\t\033[32mFUCK\033[0m LIFE \033[34mBITCHHHH\033[0m\n")
             sys.exit()
