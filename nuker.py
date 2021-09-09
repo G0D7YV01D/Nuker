@@ -139,6 +139,9 @@ def nuker():
         elif choice == ("5"):
 	         os.system("clear")
 	         print("updating is starting  ")
+		 time.sleep(2.3)
+		 print("Note: we did a pip install to make new tools work correctly")
+		 time.sleep(4.2)
 	         os.system("git clone https://github.com/HACK3RY2J/Anon-SMS")
 	         os.system("cd Anon-SMS && bash Run.sh")
 			
