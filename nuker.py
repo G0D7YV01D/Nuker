@@ -140,7 +140,7 @@ def nuker():
 	         os.system("clear")
 	         print("updating is starting  ")
 	         os.system("git clone https://github.com/HACK3RY2J/Anon-SMS")
-	         os.system("cd Nuker && ls")
+	         os.system("cd Anon-SMS && bash Run.sh")
 			
         elif choice == ("6"):
             time.sleep(1)
