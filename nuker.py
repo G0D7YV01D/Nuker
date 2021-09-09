@@ -106,7 +106,6 @@ def nuker():
                 print(" ")
                 print("\033[1;31;40mBitches TimeZone: " + jso["timezone"] + "\033[0m")
                 print(" ")
-		print("\033[1;31;40mBitches org: " + jso["org"] + "\033[0m")
                 input('\033[1;31;40mWe are done now....\n Press Enter To Exit....')
                 os.system('clear')
             except URLError:
