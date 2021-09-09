@@ -133,6 +133,7 @@ def nuker():
         elif choice == ("4"):
 	         os.system("clear")
 	         print("updating is starting  ")
+                 time.sleep(1.5)
 	         os.system("git clone https://github.com/KlumzyBish/Nuker")
 	         os.system("cd Nuker && bash update.sh")
 
