@@ -1,5 +1,3 @@
-os
-time
 BeautifulSoup
 bs4
 pip
