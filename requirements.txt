@@ -2,6 +2,7 @@ os
 time
 BeautifulSoup
 bs4
+pip
 deque
 requests.exceptions
 requests
