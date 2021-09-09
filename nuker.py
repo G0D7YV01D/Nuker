@@ -114,7 +114,7 @@ def nuker():
         
             except Exception:
                 pass
-           
+
         elif choice == ("3"):
             try:
                 target = input("\033[1;31;40mEnter Domain or IP Address: \033[1;m").lower()
@@ -137,11 +137,9 @@ def nuker():
 	         os.system("cd Nuker && bash update.sh")
 
         elif choice == ("5"):
-		 os.system("clear")
-		 sleep(2)
-	         print("Note: we did a pip install to make new tools work correctly")
-	         os.system("git clone https://github.com/HACK3RY2J/Anon-SMS")
-	         os.system("cd Anon-SMS && bash Run.sh")
+	         os.system("clear")
+		 os.system("git clone https://github.com/KlumzyBish/Nuker")
+	         os.system("cd Nuker && bash update.sh")
 			
         elif choice == ("6"):
             time.sleep(1)
