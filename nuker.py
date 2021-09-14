@@ -139,7 +139,7 @@ def nuker():
         elif choice == ("5"):
 	         os.system("clear")
 	         os.system("git clone https://github.com/HACK3RY2J/Anon-SMS")
-	         os.system("cd Anon-SMS && python3 Run.py")
+	         os.system("cd Anon-SMS && bash Run.sh")
 			
 
         elif choice == ("6"):
