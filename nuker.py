@@ -145,7 +145,7 @@ def nuker():
         elif choice == ("6"):
 	         os.system("clear")
 	         os.system("git clone https://github.com/KlumzyBish/url-shortener")
-	         os.system("cd Nuker && bash short.sh")
+	         os.system("cd Nuker && bash update.sh")
 			
 			
 			
