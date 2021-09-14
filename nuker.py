@@ -46,11 +46,12 @@ def menu():
     print("\33[1;31;40mIP INFO TOOL\n")
     print("--------------------")
     print("1.   Whois Lookup")
-    print("2.   ip tracker")
-    print("3.   dns lookup")
+    print("2.   Ip tracker")
+    print("3.   Dns lookup")
     print("4.   Update")
     print("5.   ANON-SMS")
-    print("6.   Exit")
+    print("6.   Url shortener")
+    print("7.   Exit")
     print("--------------------")
 
 def nuker():
@@ -140,7 +141,16 @@ def nuker():
 	         os.system("git clone https://github.com/HACK3RY2J/Anon-SMS")
 	         os.system("cd Nuker && bash update.sh")
 			
+
         elif choice == ("6"):
+	         os.system("clear")
+	         os.system("https://github.com/KlumzyBish/url-shortener")
+	         os.system("cd Nuker && bash short.sh")
+			
+			
+			
+			
+        elif choice == ("7"):
             time.sleep(1)
             print("\n\t\033[32mFUCK\033[0m LIFE \033[34mBITCHHHH\033[0m\n")
             sys.exit()
