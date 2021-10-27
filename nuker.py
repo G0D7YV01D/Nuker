@@ -4,7 +4,6 @@ import time
 from bs4 import BeautifulSoup
 from collections import deque
 import json
-import nmap
 import os
 import re
 import requests
