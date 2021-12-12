@@ -51,7 +51,8 @@ def menu():
     print("5.   ANON-SMS")
     print("6.   Url shortener")
     print("7.   Version")
-    print("8.   Exit")
+    print("8.   About")
+    print("9.   Exit")
     print("--------------------")
 
 def nuker():
@@ -149,8 +150,11 @@ def nuker():
 			
         if choice == ("7"):
             print("version 2.0")
+	
+        if choice == ("8"):
+            print("This tool was made for educational purposes, it is a all in one tool. The tool shares scripts made by me and scripts made by others or modified by me to make it work better! do NOT use this tool on someone without their consent! I WILL NOT BE RESPONSABLE FOR YOUR MISTAKES OR HOW YOU USE THIS TOOL!")
 			
-        elif choice == ("8"):
+        elif choice == ("9"):
             time.sleep(1)
             print("\n\t\033[32mFUCK\033[0m LIFE \033[34mBITCHHHH\033[0m\n")
             sys.exit()
